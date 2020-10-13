@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function check(){
+      let n=+prompt('nhap 1 so');
+      let i=2;
+      if (n<2){
+          document.write('k phai so nt');
+          return ;
+      }while (i<n){
+          if (n%i===0){
+              document.write('k phai so nt');
+              return ;
+          }i++;
+      }document.write('la so nt')
+  }check()
+</script>
+</body>
+</html>
